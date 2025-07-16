@@ -41,11 +41,11 @@ const sitemap = [
     },
     {
       label: 'Twitter X',
-      href: '#'
+      href: 'https://x.com/AlwaysNani77'
     },
     {
       label: 'Instagram',
-      href: 'https://www.instagram.com/alwaysnani7'
+      href: 'https://www.instagram.com/alwaysnani7/'
     },
     {
       label: 'CodePen',
