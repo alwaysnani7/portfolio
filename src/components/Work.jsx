@@ -12,7 +12,7 @@ const works = [
       imgSrc: '/images/project1.png',
       title: 'Personal portfolio',
       tags: ['Web-design', 'Development', 'API'],
-      projectLink: 'https://jagadeeshportfolio.vercel.app'
+      projectLink: 'https://jyoosjagadeeshportfolio.vercel.app/'
     }
   ];
 
