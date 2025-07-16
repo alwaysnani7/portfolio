@@ -11,10 +11,15 @@ const Hero = () => {
   return (
     <section id='home' className='pt-28 lg:pt-36'>
         <div className='container lg:grid lg:grid-cols-2 lg:gap-10 items-center'>
+            <div className="hidden lg:block">
+                <figure className='w-[350px] max-w-[350px] mr-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-75% border-[0.5px] border-zinc-700 rounded-[20px] overflow-hidden'>
+                    <img className='w-[500px]' src='images/nini-2.png' alt='' />
+                </figure>
+            </div>
             <div>
-                <div className='flex items-center gap-3'>
+                <div className='flex items-center gap-3 ml-auto'>
                     <figure className='img-box w-9 h-9 rounded-lg'>
-                        <img className='img-cover' src='/images/nini_dp.jpeg' alt='' height={40} width={40}/>
+                        <img className='img-cover' src='/images/niniiii.JPG' alt='' height={40} width={40}/>
                     </figure>
                     <div className='flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide'>
                         <span className='relative w-2 h-2 rounded-full bg-emerald-400'>
@@ -30,11 +35,6 @@ const Hero = () => {
                     <ButtonPrimary label="Download CV" icon="download" href="files/ninichan.pdf"/>
                     <ButtonOutline href="#about" label="Scroll down" icon="arrow_downward"/>
                 </div>
-            </div>
-            <div className="hidden lg:block">
-                <figure className='w-[350px] max-w-[390px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% border-[0.2px] border-zinc-700 rounded-[20px] overflow-hidden'>
-                    <img className='w-full bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-80%' src='images/nini.png' alt='' width={50}/>
-                </figure>
             </div>
         </div>
     </section>
